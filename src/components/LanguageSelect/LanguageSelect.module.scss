@@ -1,0 +1,18 @@
+.container{
+	display: flex;
+	gap: 3px;
+	align-items: center;
+	gap: 7px;
+	cursor: pointer;
+	position: relative;
+
+	.flagwrapper {
+		width: 24px;
+		height: 24px;
+		background-color: #C1272D;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

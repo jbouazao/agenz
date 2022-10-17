@@ -1,11 +1,15 @@
 import Head from 'next/head'
+import classes from '../styles/Home.module.scss'
 
-export default function Home() {
+export default function Annonces() {
   return (
-    <div className={styles.container}>
+    <div className={classes.container}>
       <Head>
         <title>Agenz</title>
       </Head>
+			<main>
+
+			</main>
     </div>
   )
 }
