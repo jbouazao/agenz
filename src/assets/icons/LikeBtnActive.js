@@ -2,7 +2,7 @@ import React from 'react'
 
 const LikeBtnActive = (props) => {
 	return (
-		<div className = {props.className}>
+		<div className = {props.className} onClick = {props.onClick}>
 			<svg width="41" height="38" viewBox="0 0 41 38" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<g filter="url(#filter0_d_2_95)">
 			<path d="M33.7952 7.24593C36.6365 10.1401 36.7453 14.7973 34.0424 17.8259L20.4995 33L6.95759 17.8259C4.25471 14.7973 4.36354 10.1402 7.20479 7.24598C10.3772 4.01442 15.602 4.30934 18.4046 7.878L20.5 10.5447L22.5936 7.8779C25.3963 4.30924 30.6228 4.01437 33.7952 7.24593Z" fill="white"/>

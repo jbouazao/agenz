@@ -1,17 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import LikeBtnActive from 'src/assets/icons/LikeBtnActive'
 import LikeBtnNotActive from 'src/assets/icons/LikeBtnNotActive'
 import classes from './ListingItem.module.scss'
+import cx from 'classnames'
 
 const ListingItem = ({listing}) => {
+	const [liked, setLiked] = useState(false)
+
+	const toggleLikeHandler = () => {
+		setLiked(prev => !prev)
+	}
+	
 	return (
 		<li className = {classes.container}>
 			<img src = {listing.image.src} alt = ''/>
 			<span className = {classes.daysonagenz}>
 				{listing.dateAdded} days on agenz
 			</span>
-			{listing.liked ? <LikeBtnActive className = {classes.likebtn}/> :
-			 <LikeBtnNotActive className = {classes.likebtn}/>}
+			{liked ? <LikeBtnActive onClick = {toggleLikeHandler} className = {cx(classes.likebtn, classes.likebtnactive)}/> :
+			 <LikeBtnNotActive onClick = {toggleLikeHandler} className = {classes.likebtn}/>}
 			<div className = {classes.detailscontainer}>
 				<span className = {classes.price}>{listing.price} MAD</span>
 				<div className = {classes.desc}>

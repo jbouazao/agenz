@@ -23,7 +23,7 @@ export const listings = [
 		operation: 'vendre',
 		roomsNum: 2,
 		surface: 140,
-		price: '1,110,122',
+		price: '1,000,122',
 		location: 'Marrakech Guéliz',
 		createdBy: 'MARRAKECH CONSEILS INVEST',
 		image: property2,
