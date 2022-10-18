@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import MarFlagIcon from 'src/assets/icons/MarFlagIcon'
+import {MdOutlineStarPurple500} from 'react-icons/md'
 import { languages } from 'src/utils/lists/languages'
 import Dropdown from '../UI/Dropdown/Dropdown'
 import classes from './LanguageSelect.module.scss'
@@ -18,7 +18,7 @@ const LanguageSelect = () => {
 					</li>)}
 				>
 				<span className = {classes.flagwrapper}>
-					<MarFlagIcon />
+					<MdOutlineStarPurple500 />
 				</span>
 				<span>{language}</span>
 			</Dropdown>

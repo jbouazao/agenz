@@ -10,7 +10,7 @@ const LikeBtnActive = (props) => {
 			</g>
 			<defs>
 			<filter id="filter0_d_2_95" x="0" y="-3.8147e-05" width="41" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 			<feOffset/>
 			<feGaussianBlur stdDeviation="2"/>
