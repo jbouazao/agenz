@@ -35,7 +35,11 @@ export const mainMenuItems = [
 		title: 'Crédit',
 		path: '/',
 		isDropdown: true,
-		options: []
+		options: [
+			'Calculateur de budget',
+			'Calculateur de Mensualité',
+			'Demander un crédit'
+		]
 	},
 	{
 		title: 'Agences',

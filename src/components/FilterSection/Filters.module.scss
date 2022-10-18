@@ -1,0 +1,23 @@
+.container {
+	display: flex;
+	align-items: center;
+	gap: 13px;
+	font-size: 12px;
+
+	.filteritem {
+		border-radius: 2px;
+		width: 100px;
+		height: 30px;
+		border: 1px solid rgba(0,0,0, 0.1);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #460AF0;
+		cursor: pointer;
+	}
+
+	.submitbtn {
+		background-color: #460AF0;
+		color: white;
+	}
+}

@@ -23,7 +23,7 @@ const Dropdown = (props) => {
 			<div className={classes.toggle} onClick = {() => setIsOpen(prev => !prev)}>
 				{props.children}
 			</div>
-			{isOpen && <ul ref = {ref} className={classes.list}>
+			{isOpen && <ul ref = {ref} className={cx(classes.list, props.liststyling)}>
 				{props.options}
 			</ul>}
 		</div>

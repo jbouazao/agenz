@@ -1,0 +1,8 @@
+.listingscontainer {
+	height: 470px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	list-style: none;
+	overflow-y: scroll;
+}

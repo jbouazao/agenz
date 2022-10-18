@@ -7,6 +7,7 @@ import LanguageSelect from '../LanguageSelect/LanguageSelect'
 import LoginIcon from 'src/assets/icons/LoginIcon'
 import OpenTabIcon from 'src/assets/icons/OpenTabIcon'
 import Dropdown from '../UI/Dropdown/Dropdown'
+import DropdownIcon from 'src/assets/icons/DropdownIcon'
 
 const Navbar = () => {
 	return (
@@ -16,10 +17,13 @@ const Navbar = () => {
 				{mainMenuItems?.map((navitem, idx) =>
 					navitem.isDropdown ?
 						<Dropdown
-							options={navitem.options.map((item, idx) => <div key = {idx}>
-								<Link href = '/'><a>{item}</a></Link></div>)}>
-							<span className = {classes.navitem}>{navitem.title}</span>
-							</Dropdown> :
+							key={idx}
+							options={navitem.options.map((item, idx) => <div key={idx}>
+								<Link href='/'><a>{item}</a></Link></div>)}>
+							<span className={classes.navitem}>
+								{navitem.title}<DropdownIcon />
+							</span>
+						</Dropdown> :
 						<Link
 							key={idx}
 							href={navitem.path}>

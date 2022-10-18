@@ -1,0 +1,53 @@
+.container {
+	width: 355px;
+	height: 281px;
+	// margin: 4px;
+	box-shadow: 0px 2px 3px 0px #00000040;
+	position: relative;
+
+	.likebtn {
+		position: absolute;
+		top: 9px;
+		right: 9px;
+	}
+
+	.daysonagenz {
+		font-size: 11px;
+		font-weight: 500;
+		line-height: 17px;
+		background: rgba(0, 0, 0, 0.6);
+		border-radius: 15px;
+		color: white;
+		padding: 0 7px;
+		position: absolute;
+		top: 9px;
+		left: 9px;
+	}
+
+	.detailscontainer {
+		padding: 0px 8px;
+
+		.price {
+			font-weight: 600;
+			font-size: 20px;
+		}
+
+		.desc {
+			font-size: 14px;
+
+			.h2 {
+				font-weight: 400;
+				font-size: 14px;
+
+				& > strong {
+					font-weight: 500;
+				}
+			}
+
+			.annoncepar {
+				color: grey;
+				font-size: 11px;
+			}
+		}
+	}
+}
