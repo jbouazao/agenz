@@ -21,7 +21,7 @@ const Navbar = () => {
 							options={navitem.options.map((item, idx) => <div key={idx}>
 								<Link href='/'><a>{item}</a></Link></div>)}>
 							<span className={classes.navitem}>
-								{navitem.title}<DropdownIcon />
+								{navitem.title}<DropdownIcon color = 'black'/>
 							</span>
 						</Dropdown> :
 						<Link

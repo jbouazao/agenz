@@ -26,22 +26,26 @@
 		}
 
 		.dropdown {
-			width: auto;
+			width: 305px;
 			padding: 1px 3px;
 			border: 1px solid rgba($color: #000000, $alpha: 0.2);
 			font-size: 14px;
 			color: #460AF0;
+
+			.dropdownitem {
+				border: none;
+
+				&:hover {
+					color: inherit;
+				}
+			}
 
 			.liststyling {
 				left: 0;
 				margin-top: 2px;
 			}
 
-
 			.dropdownicon {
-				display: flex;
-				justify-content: center;
-				align-items: center;
 				padding: 0 6px 0 2px;
 			}
 		}
