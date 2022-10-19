@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import FilterSection from 'src/components/FilterSection/Filtersection'
+import FilterSection from 'src/components/FilterSection/FilterSection'
 import ListingsSection from 'src/components/ListingsSection/ListingsSection'
 import classes from '../styles/Home.module.scss'
 
