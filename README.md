@@ -1,3 +1,11 @@
+## Features
+- navigation menu dropdowns are clickable.
+- search filters are clickable.
+- in the listings section, the filter has selectable options.
+- in each listing item, a clickable like button gets activated when clicked.
+- the listings items are dynamic.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
