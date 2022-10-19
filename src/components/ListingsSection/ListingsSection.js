@@ -1,6 +1,6 @@
 import React from 'react'
 import ListingsWrapper from './ListingsWrapper'
-import ListingsMap from './listingsMap'
+import ListingsMap from './ListingsMap'
 import classes from './ListingsSection.module.scss'
 
 const ListingsSection = () => {
